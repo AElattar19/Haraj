@@ -1,0 +1,2 @@
+[16-Oct-2022 11:33:55 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/kamen/kamen.kamen-haraj.com/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php on line 70
+[16-Oct-2022 11:33:55 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 8192 bytes) in /home/kamen/kamen.kamen-haraj.com/vendor/symfony/error-handler/Error/FatalError.php on line 76

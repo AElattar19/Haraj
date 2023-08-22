@@ -1,0 +1,185 @@
+
+.border-error {
+    border-top: solid 2px red;
+    border-right: dot-dash 1px red;
+    border-left: dot-dash 1px red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.note-editor.note-airframe,
+.note-editor.note-frame {
+    margin: 0;
+}
+
+.preloader img {
+    border-radius: 50%;
+}
+
+.dz-remove {
+    padding: 7px 20px;
+    background: #ff8e00;
+    color: #fff;
+    border-radius: 3px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    word-break: normal;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.dz-processing .dz-remove:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f057";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.dz-complete .dz-remove {
+    padding: 7px 20px;
+    background: #dc3545;
+    color: #fff;
+    border-radius: 3px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    word-break: normal;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.dz-complete .dz-remove:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f2ed";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+.dz-remove:hover {
+    color: #fff;
+    background-color: #c82333;
+}
+
+.dz-processing.dz-image-preview {
+    align-items: center;
+}
+
+.card-primary .delete-image {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 4px;
+    left: 12px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s
+}
+
+.card-primary .delete-image:hover {
+    background-color: #ee3148;
+    color: #fff !important;
+}
+
+.card-primary .delete-image:hover i {
+    color: #fff !important;
+}
+
+.border-error {
+    border-top: solid 2px red;
+    border-right: dot-dash 1px red;
+    border-left: dot-dash 1px red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-footer>div {
+    float: none !important;
+}
+
+.main-footer p {
+    margin: 0;
+}
+.dark-mode .card-primary.card-outline {
+    border-top: 8px solid;
+    border-color: #ffd700 !important;
+}
+.dark-mode .sweet-alert {
+
+    background-color: #000000f0 !important;
+}
+.dark-mode .iconpicker-container {
+    background-color: #000000f0 !important;
+}
+.dark-mode .iconpicker-items {
+    background-color: #000000f0 !important;
+
+}
+.dark-mode .iconpicker .iconpicker-items
+{
+    background: #000000f0 !important;
+}
+
+#sidebar_sections_tab_link{
+    height: 100%;
+
+}
+
+#left-sidebar-tab .nav-link {
+    width: auto !important;
+    min-width: auto;
+    max-width: initial;
+    display: inline-flex;
+    writing-mode: vertical-lr;
+    max-height: 20vh;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    height: 50%;
+    margin: 010px 0;
+}
+
+#left-sidebar-tab {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    /* transform: rotate(90deg); */
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    right: 7px;
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex: 0 1;
+    flex-wrap: nowrap;
+}
+
+.nav-tabs .nav-item{
+    margin-right: 4px !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
